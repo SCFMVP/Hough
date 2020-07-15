@@ -130,7 +130,7 @@ end
 %allcircle
 ```
 ##  运行效果
-![轮廓提取](/pic/轮廓提取.png)
+![轮廓提取](/Hough/Hough/pic/轮廓提取.png)
 ![检测结果1](/pic/检测结果.png)
 ![检测结果2](/pic/检测结果2.png)
   
