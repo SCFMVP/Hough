@@ -1,10 +1,10 @@
 DEMO
 ===========================
 
-########### 环境依赖
+##  环境依赖
 MATLAB1016a
 
-########### 部署步骤
+##  部署步骤
 1. 加入工作目录
 
 2. 运行test.c
@@ -12,7 +12,7 @@ MATLAB1016a
 
 
 
-########### 目录结构描述
+##  目录结构描述
 │  002.jpg
 │  1.RGB.jpg
 │  2.GRAY.jpg
@@ -27,7 +27,7 @@ MATLAB1016a
 │  README.MD
 │  test.m
 
-########### 关键代码
+##  关键代码
 ```c
 function [hough_space,hough_circle,para] = hough_circle2(BW,step_r,step_angle,r_min,r_max,p);
 %[HOUGH_SPACE,HOUGH_CIRCLE,PARA] = HOUGH_CIRCLE(BW,STEP_R,STEP_ANGLE,R_MAX,P)
@@ -129,10 +129,10 @@ for i=1:length
 end
 %allcircle
 ```
-########### 运行效果
+##  运行效果
 ![轮廓提取](/pic/轮廓提取.png)
 ![检测结果1](/pic/检测结果.png)
 ![检测结果2](/pic/检测结果2.png)
   
-########### V1.0.0 版本内容更新
+##  V1.0.0 版本内容更新
 1. 哈夫对圆的拟合     
